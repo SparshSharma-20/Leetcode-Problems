@@ -1,3 +1,5 @@
+//Question :- https://leetcode.com/problems/arranging-coins/description/
+
 import java.util.Scanner;
 public class ArrangingCoins {
     public static void main(String[] args) {
