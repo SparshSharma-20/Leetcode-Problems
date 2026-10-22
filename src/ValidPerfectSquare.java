@@ -2,8 +2,8 @@
 public class ValidPerfectSquare {
     public static void main (String[] args){
         int num = 16;
-        boolean ans = isPerfectSquare(num);
-        System.out.println(ans);
+
+        System.out.println(isPerfectSquare(num));
     }
     public static boolean isPerfectSquare(int num) {
         int s = 1;
