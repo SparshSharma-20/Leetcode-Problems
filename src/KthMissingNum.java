@@ -4,8 +4,8 @@ public class KthMissingNum {
     public static void main (String[] args){
         int[] arr = {1,2,3,4,5,6};
         int k = 2;
-        int ans = findKthPositive(arr,k);
-        System.out.println(ans);
+
+        System.out.println(findKthPositive(arr,k));
     }
     public static int findKthPositive (int[] arr, int k){
         int a = 1;
