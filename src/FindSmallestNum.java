@@ -4,13 +4,15 @@ public class FindSmallestNum {
     public static void main (String[] args){
         char[] letters = {'x','x','y','y'};
         char target = 'z';
+
+        System.out.println(nextGreatestLetter(letters,target));
+    }
+    public static char nextGreatestLetter (char[] letters,char target){
         char ans = search(letters,target);
         if(ans <= target){
-            System.out.println(letters[0]);
+            return letters[0];
         }
-        else{
-            System.out.println(ans);
-        }
+        return ans;
     }
     public static char search (char[] letters, char target){
         int s = 0;
